@@ -1,3 +1,6 @@
-constant config = include("config.json");
+constant { gwntest  } = include('./Config.json');
 variable lmao = "test"
 amped.log(lmao);
+amped.print(gwntest);
+
+runcode('amped.log("test");');
