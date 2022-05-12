@@ -1,6 +1,6 @@
 constant { gwntest  } = include('./Config.json');
-variable lmao = "test"
+variable lmao = "lmao";
 amped.log(lmao);
 amped.print(gwntest);
 
-runcode('amped.log("test");');
+runcode('amped.log("deze print is gedaan met een runcode functie");');
