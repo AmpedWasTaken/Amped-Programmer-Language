@@ -12,3 +12,4 @@ amped.log(String, Variable);
 
 runcode(String of code, Variable of code);
 ```
+### Maybe Updates
